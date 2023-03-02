@@ -1,0 +1,9 @@
+{
+    "name": "eslint-config-awesome",
+    "main": "index.js",
+    "version": "1.0.0",
+    "dependencies": {
+        "eslint": "^8.35.0",
+        "eslint-plugin-react": "^7.32.2"
+    }
+  }

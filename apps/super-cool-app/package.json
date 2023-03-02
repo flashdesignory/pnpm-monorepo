@@ -6,7 +6,8 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server .",
-        "build": "webpack ."
+        "build": "webpack .",
+        "lint": "eslint ./src"
     },
     "author": "",
     "license": "ISC",
@@ -19,7 +20,8 @@
         "html-webpack-plugin": "^5.5.0",
         "webpack": "^5.75.0",
         "webpack-cli": "^5.0.1",
-        "webpack-dev-server": "^4.11.1"
+        "webpack-dev-server": "^4.11.1",
+        "eslint-config-awesome": "workspace:*"
     },
     "dependencies": {
         "react": "^18.2.0",
